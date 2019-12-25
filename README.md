@@ -34,6 +34,18 @@ https://medium.com/@leonardomendoza/angular-7-prettier-99ffbec05363
 
 https://medium.com/@victormejia/setting-up-prettier-in-an-angular-cli-project-2f50c3b9a537
 
-### Typescript hero replaced by "source.organizeImports" under "actionsOnSave" (Note: I haven't had to use this while using prettier)
+### Typescript hero replaced by "source.organizeImports" under "actionsOnSave"
 
-https://medium.com/@hamxiaoz/visual-studio-code-formatting-setup-9f40a95699ce
+Two links below have to do with maintainer saying typescript hero is obsolete
+https://gitlab.com/smartive-private/christoph/typescript-hero/issues/434#note_107457812
+
+https://stackoverflow.com/questions/46722701/is-there-a-way-to-remove-unused-imports-and-declarations-from-angular-2
+
+If you're a heavy visual studio user, you can simply open your preference settings and add the following to your settings.json:
+
+...
+"editor.formatOnSave": true,
+"editor.codeActionsOnSave": {
+"source.organizeImports": true
+}
+....
