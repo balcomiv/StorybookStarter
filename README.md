@@ -25,3 +25,15 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+### Pretier
+
+https://itnext.io/enforce-your-team-coding-style-with-prettier-and-tslint-9faac5016ce7
+
+https://medium.com/@leonardomendoza/angular-7-prettier-99ffbec05363
+
+https://medium.com/@victormejia/setting-up-prettier-in-an-angular-cli-project-2f50c3b9a537
+
+### Typescript hero replaced by "source.organizeImports" under "actionsOnSave" (Note: I haven't had to use this while using prettier)
+
+https://medium.com/@hamxiaoz/visual-studio-code-formatting-setup-9f40a95699ce
